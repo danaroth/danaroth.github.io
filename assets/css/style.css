@@ -658,7 +658,7 @@ div.centerb {
 
 
 
-.loader_bg {
+#loader_bg {
     position: fixed;
     z-index: 999999;
     background: #fff;
@@ -684,14 +684,9 @@ div.centerb {
 }
 
 
-.gifloader {
-
-    top: 50%;
-    /*transform: translate(0, -50%)*/
 
 
-}
-
+//*
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -704,7 +699,6 @@ div.centerb {
 
 
 
-//*
 .loader {
     border: 0 soild transparent;
     border-radius: 50%;

@@ -35,7 +35,8 @@
 <body>
 
 
-    <div class="loader_bg">
+
+    <div id="loader_bg">
         <br>
         <br>
         <br>
@@ -44,7 +45,7 @@
             <img src="assets/gif/loading.gif" width=400>
         </div>
 
-        
+
     </div>
 
 
@@ -222,11 +223,24 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        var loader = document.getElementById("loader_bg");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+
+
+    <!---- =====
     <script>
         setTimeout(function() {
             $('.loader_bg').fadeToggle();
         }, 1500);
     </script>
+====== -->
 
 
-</body></html>
+</body>
+
+</html>
