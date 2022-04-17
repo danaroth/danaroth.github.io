@@ -667,19 +667,28 @@ div.centerb {
 }
 
 .loader {
-border: 16px solid #f3f3f3;
+    border: 16px solid #f3f3f3;
     border-top: 16px solid pink;
     border-radius: 50%;
     width: 70px;
     height: 70px;
     animation: spin 1.5s linear infinite;
-      
+
     margin: 0 auto;
-    top: 50%; 
+    top: 50%;
     /*left: 50%;      
 
     /*transform: translate(0, -50%)*/
- 
+
+
+}
+
+
+.gifloader {
+
+    top: 50%;
+    /*transform: translate(0, -50%)*/
+
 
 }
 
@@ -692,6 +701,7 @@ border: 16px solid #f3f3f3;
         transform: rotate(360deg);
     }
 }
+
 
 
 //*
