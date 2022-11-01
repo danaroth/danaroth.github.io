@@ -35,7 +35,15 @@
 
 <body>
 
-
+    <div id="loader_bg">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="center">
+            <img src="assets/gif/loading.gif" width=400>
+        </div>
+    </div>
 
 
     <div class="center">
@@ -119,6 +127,14 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        var loader = document.getElementById("loader_bg");
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
+
+    </script>
 
 </body>
 

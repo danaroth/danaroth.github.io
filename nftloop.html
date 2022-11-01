@@ -35,7 +35,15 @@
 
 <body>
 
-
+    <div id="loader_bg">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="center">
+            <img src="assets/gif/loading.gif" width=400>
+        </div>
+    </div>
 
 
     <div class="center">
@@ -99,7 +107,7 @@
 
 
 
-      <div class="center">
+        <div class="center">
             <a href="https://www.facebook.com/dana.roth.77/" target="_blank"><span class="bi bi-facebook"></span></a>
             <a href="https://www.instagram.com/danaroth_/" target="_blank"><span class="bi bi-instagram"></span></a>
         </div>
@@ -117,6 +125,14 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        var loader = document.getElementById("loader_bg");
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
+
+    </script>
 
 </body>
 
